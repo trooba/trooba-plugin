@@ -1,0 +1,33 @@
+{
+  "name": "trooba-plugin",
+  "version": "0.1.0",
+  "description": "The module provides plugin attributes and version validation for trooba framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test",
+    "test-coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimichgh/trooba-plugin.git"
+  },
+  "keywords": [
+    "trooba",
+    "plugin",
+    "annotations",
+    "dependency"
+  ],
+  "author": "Dmytro Semenov <dimichsdg@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dimichgh/trooba-plugin/issues"
+  },
+  "homepage": "https://github.com/dimichgh/trooba-plugin",
+  "dependencies": {
+    "semver": "^5.4.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1"
+  }
+}
