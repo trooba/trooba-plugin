@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dimichgh/trooba-plugin.git"
+    "url": "https://github.com/trooba/trooba-plugin.git"
   },
   "keywords": [
     "trooba",
@@ -20,9 +20,9 @@
   "author": "Dmytro Semenov <dimichsdg@yahoo.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dimichgh/trooba-plugin/issues"
+    "url": "https://github.com/trooba/trooba-plugin/issues"
   },
-  "homepage": "https://github.com/dimichgh/trooba-plugin",
+  "homepage": "https://github.com/trooba/trooba-plugin",
   "dependencies": {
     "semver": "^5.4.1"
   },
